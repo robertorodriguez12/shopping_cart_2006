@@ -9,5 +9,8 @@ class Product
 
   end
 
+  def total_price
+    return unit_price * quantity
+  end
 
 end
